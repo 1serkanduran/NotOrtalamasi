@@ -22,9 +22,10 @@ public class notOrtalamasi {
 		
 		System.out.println("Ortalama"+sonuc);
 		
-		boolean result2 = sonuc>=60 ;
-		String str = result2 ? "Geçtiniz." : "Kaldınız.";
+		boolean sonuc2 = sonuc>=60 ;
+		String str = sonuc2 ? "Geçtiniz." : "Kaldınız.";
 		System.out.println(str);
+		System.out.println("Müzik notunu giriniz");
 		 
 	}
 
